@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Public/Documents/myproject/saas-starter-next16-nextauth-supabase/app/layout.tsx"],"sourcesContent":["import React from 'react';\r\n\r\nexport const metadata = {\r\n  title: 'SaaS Starter',\r\n  description: 'Next.js 16 + NextAuth + Supabase + Vercel',\r\n};\r\n\r\nexport default function RootLayout({ children }: { children: React.ReactNode }) {\r\n  return (\r\n    <html lang=\"ja\" data-google-analytics-opt-out=\"\">\r\n      <head />\r\n      <body className=\"min-h-screen bg-white text-slate-900\">\r\n        {children}\r\n      </body>\r\n    </html>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;;;AAEO,MAAM,WAAW;IACtB,OAAO;IACP,aAAa;AACf;AAEe,SAAS,WAAW,EAAE,QAAQ,EAAiC;IAC5E,qBACE,8OAAC;QAAK,MAAK;QAAK,iCAA8B;;0BAC5C,8OAAC;;;;;0BACD,8OAAC;gBAAK,WAAU;0BACb;;;;;;;;;;;;AAIT"}},
+    {"offset": {"line": 45, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Public/Documents/myproject/saas-starter-next16-nextauth-supabase/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-rsc']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
+}
